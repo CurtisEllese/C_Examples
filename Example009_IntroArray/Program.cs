@@ -1,4 +1,4 @@
-﻿int Max(int arg1,int arg2,int arg3)
+﻿int Max(int arg1, int arg2, int arg3)
 {
     int result = arg1;
     if (arg2 > result) result = arg2;
@@ -6,7 +6,7 @@
     return result;
 };
 
-int[] array = {11, 311, 54, 65, 87, 1, 19, 78, 115};
+int[] array = { 11, 311, 54, 65, 87, 1, 19, 78, 115 };
 
 int max = Max(
     Max(array[0], array[1], array[2]),
